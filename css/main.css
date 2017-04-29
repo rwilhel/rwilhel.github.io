@@ -1,0 +1,51 @@
+body {
+  background-color: AliceBlue;
+  padding-top: 70px;
+  font-family: 'Hind', sans-serif;
+  color: black;
+}
+
+nav {
+    height: 70px;
+}
+
+h1, h2 {
+  color: black;
+  font-family: 'Frijole', cursive;
+}
+
+#navbar {
+  vertical-align: center;
+}
+
+nav {
+  font-size: 18px;
+}
+
+.jumbotron {
+  padding: .5cm;
+  position: relative;
+  vertical-align: middle;
+  background-color: aqua;
+}
+
+.jumbotron h1, #jumbotron-words {
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.jumbotron p {
+  font-weight: normal;
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+}
+
+.jumbotron img {
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
