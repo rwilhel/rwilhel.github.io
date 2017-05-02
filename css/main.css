@@ -1,8 +1,8 @@
 body {
-  background-color: AliceBlue;
+  background-color: #766565;
   padding-top: 70px;
-  font-family: 'Hind', sans-serif;
-  color: black;
+  font-family: 'Muli', sans-serif;
+  color: #1e2b2b;
 }
 
 nav {
@@ -11,22 +11,33 @@ nav {
 
 h1, h2 {
   color: black;
-  font-family: 'Frijole', cursive;
+  font-family: 'Faster One', cursive;
+  vertical-align: center;
 }
 
 #navbar {
   vertical-align: center;
+  margin: auto;
 }
 
 nav {
   font-size: 18px;
 }
 
+.btn-group {
+  vertical-align: center;
+  margin: auto;
+  display: inline-block;
+  padding-top: 17px;
+}
+
 .jumbotron {
   padding: .5cm;
   position: relative;
   vertical-align: middle;
-  background-color: aqua;
+  margin: auto;
+  background-color: #31323e;
+  box-shadow: 0 8px 16px -6px black;
 }
 
 .jumbotron h1, #jumbotron-words {
@@ -48,4 +59,14 @@ nav {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+  padding-top: 15px;
+}
+
+#magic {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.row-1 {
+  padding: 50px;
 }

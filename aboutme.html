@@ -7,8 +7,9 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <!-- Bootstrap -->
     <title>Rhonda's Magical Playhouse</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Faster+One|Muli" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -19,19 +20,39 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav" id="navbar">
         <li><a href='index.html' class="title"><h4>Rhonda Wilhelmson's Lair</h4></a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><h4>Creatures</h4><span class="caret"></span></a>
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Good Times
+      <span class="caret"></span></button>
           <ul class="dropdown-menu">
             <li><a href="aboutme.html">About Me</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="http://corndogoncorndog.com/" target="_blank">Corn Dogs</a></li>
           </ul>
         </li>
-        </ul>
+      </div>
+      </div>
+      </li>
+      </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
-    </nav>
+  </nav>
   <div class="container">
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-xs-6">
+            <h1>Rhonda Wilhelmson</h1>
+            <p id="jumbotron-words">
+              Hey there! I used to be a TEEVEE producer and now I am a student of backend software engineering at Turing in beautiful downtown Denver, Colorado. I have a sweet, smol doggo named Pazuzu who is sprinkled all around this website. I enjoy all the geeky and/or scary things and I LOVE to pick heavy things up and set them down.
+            </p>
+      </div>
+
+      <div class="col-xs-6">
+        <img src='images/IMG_4353.JPG' alt='Little Ronnie' class='center-block'>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
